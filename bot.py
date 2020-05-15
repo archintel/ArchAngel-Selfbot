@@ -97,7 +97,9 @@ else:
         log.err(False, f"Could not log into [{temp[0]}]")
         sys.exit()
 
+
 class bot(discord.Client):
+
     async def on_message(self, msg):
         for p in config['prefixes']:
             for y in allcommands:
