@@ -1,0 +1,24 @@
+#     ARCHANGEL SELFBOT CONFIG
+#
+# +-=[]=-=[]=-=[]=-=[]=-=[]=-=[]=-+
+# )  Built by Vortexxx and Crypt  (
+# +-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
+# |         Contact at:           |
+# |       vortex@nigge.rs         |
+# +-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+
+#
+# Only use credentials for combo lists and shit. You don't wanna keep your password in plain text.
+# Tokens are more secure and if someone gains access to this file they won't have access to your
+# password and only your token. Minimize potential damage.
+
+use-token: false
+credentials: email@email.ru:password
+token: xxxxxxxxxxxxxxxxxxxxx.xxxxxx.xxxxxxxxxxxxxxxxxxxxx
+
+prefixes:
+  - ;
+  - $
+  - ^
+
+# Kind of advanced, don't worry about this unless you know what you're doing.
+user-agent: AngelOfDeath/0.2 (Vortexxx; Crypt)
